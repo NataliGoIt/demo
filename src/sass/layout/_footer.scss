@@ -1,0 +1,25 @@
+.footer{
+    padding-top: 48px;
+    padding-bottom: 64px;
+    border-top: solid 1px #696969;
+    text-align: center;
+}
+.footer__social-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 34px;
+}
+.footer__social-item{
+    &:not(:last-child){
+        margin-right: 32px;
+    }
+}
+.footer__social-svg{
+    width: 22px;
+    height: 22px;
+    fill: #959595;
+}
+.copy{
+    color: #959595;
+}
