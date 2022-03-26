@@ -223,4 +223,47 @@ body {
   font-style: normal;
   color: #ffffff;
 }
+
+.video {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+
+.video__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.video__svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.video__svg-title {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 25px;
+  color: #DEDEDE;
+}
+
+.video__list {
+  margin-top: 46px;
+  text-align: center;
+}
+
+.video__item {
+  margin: 0 auto;
+}
+
+.video__iframe {
+  width: 360px;
+  height: 246px;
+  border-radius: 4px;
+}
 /*# sourceMappingURL=main.css.map */
