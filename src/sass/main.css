@@ -261,9 +261,29 @@ body {
   margin: 0 auto;
 }
 
+.video__item:not(:last-child) {
+  margin-bottom: 38px;
+}
+
 .video__iframe {
   width: 360px;
   height: 246px;
   border-radius: 4px;
+}
+
+.about {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+
+.about__title {
+  margin-bottom: 34px;
+  font-size: 28px;
+}
+
+.about__description {
+  font-size: 22px;
+  line-height: 44px;
 }
 /*# sourceMappingURL=main.css.map */
