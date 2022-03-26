@@ -1,0 +1,33 @@
+.header{
+    background-color: rgba(50, 50, 50, 0.7);
+    padding-top: 23px;
+    padding-bottom: 23px;
+}
+.header__position{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header__nav-icon{
+    width: 48px;
+    height: 48px;
+    fill: #ffffff;
+    padding-right: 10px;
+}
+.header__burger-menu{
+    width: 34px;
+    height: 34px;
+    fill: #ffffff;
+}
+.header__nav-link{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27px;
+    color: #DEDEDE;
+    font-style: normal;
+}

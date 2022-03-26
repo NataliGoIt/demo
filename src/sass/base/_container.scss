@@ -1,0 +1,36 @@
+.container {
+    min-width: 250px;
+    max-width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto; 
+  }
+  @media screen and (min-width: 321px){
+    .container{
+      width: 290px;
+    }
+  }
+    @media screen and (min-width: 480px){
+      .container{
+        width: 450px;
+      }
+    }
+    // 768+
+    @media screen and (min-width: 768px){
+      .container{
+       width: 708px;
+      
+      }
+    }
+    // 1024+
+    @media screen and (min-width: 1024px){
+      .container{
+      width: 964px;
+      
+      }
+    }
+    @media screen and (min-width: 1440px){
+      .container{
+        width: 1380px;
+        }
+    }
