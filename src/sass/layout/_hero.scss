@@ -16,11 +16,13 @@ padding-bottom: 64px;
     margin-bottom: 60px;
 }
 .hero__description{
+    max-width: 300px;
  font-weight: 500;
 font-size: 18px;
 line-height: 26px;
 text-align: center;
 color: #959595;
+margin: 0 auto;
 margin-bottom: 48px;
 }
 .hero__btn{

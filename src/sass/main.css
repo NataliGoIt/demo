@@ -42,12 +42,6 @@ body {
   margin: 0 auto;
 }
 
-@media screen and (min-width: 321px) {
-  .container {
-    width: 290px;
-  }
-}
-
 @media screen and (min-width: 480px) {
   .container {
     width: 450px;
@@ -93,11 +87,13 @@ body {
 }
 
 .hero__description {
+  max-width: 300px;
   font-weight: 500;
   font-size: 18px;
   line-height: 26px;
   text-align: center;
   color: #959595;
+  margin: 0 auto;
   margin-bottom: 48px;
 }
 
