@@ -50,3 +50,19 @@ font-size: 18px;
 // line-height: 25px;
 color: #ffffff;
 }
+
+@media screen and (min-width: 768px){
+    .hero{
+        padding-top: 96px;
+        padding-bottom: 64px;
+        }
+    .hero__position{
+        display: flex;
+        align-items: center;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    // .hero__left{
+        
+    // }
+}
