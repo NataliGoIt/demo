@@ -2,3 +2,39 @@
     padding-top: 64px;
     padding-bottom: 64px;
 }
+.music__play-item{
+    display: flex;
+    align-items: center;
+    border-top: 0.5px solid rgba(229, 229, 229, 0.33);
+    padding-top: 25px;
+    padding-bottom: 13px;
+    padding-left: 10px;
+    padding-right: 13px;
+}
+.music-11{
+    border-bottom: 0.5px solid rgba(229, 229, 229, 0.33);
+}
+.music__play-img{
+    width: 45px;
+    height: 45px;
+    border-radius: 4px;
+    margin-right: 16px;
+}
+.music__play-title{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+}
+.music__play-description{
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: rgba(229, 229, 229, 0.72);
+    margin-top: 8px;
+}
+.music__play-play{
+    margin-left: auto;
+    width: 17px;
+    height: 17px;
+    fill: #ffffff;
+}
