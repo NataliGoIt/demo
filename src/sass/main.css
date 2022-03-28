@@ -112,7 +112,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   border: none;
-  background-color: #9D9D9D;
+  background-color: #D9720D;
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
@@ -222,6 +222,13 @@ body {
 .social__item-title {
   font-style: normal;
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .social {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
 
 .video {
@@ -369,7 +376,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
   border: none;
-  background-color: #9D9D9D;
+  background-color: #D9720D;
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
