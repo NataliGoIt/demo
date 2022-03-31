@@ -23,3 +23,27 @@
 .copy{
     color: #959595;
 }
+
+@media screen and (min-width: 768px){
+    .footer__social-svg{
+        width: 32px;
+        height: 32px;
+    }
+    .footer__social-item{
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px){
+    .footer__social-svg{
+        width: 36px;
+        height: 36px;
+    }
+    .footer__social-item{
+        &:not(:last-child){
+            margin-right: 35px;
+        }
+    }
+}
