@@ -42,11 +42,16 @@ margin-bottom: 48px;
 .hero__btn-icon{
     width: 18px;
     height: 18px;
-    margin-right: 16px;
+    margin-right: 14px;
+}
+.hero__btn-link{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .hero__btn-text{
     font-weight: 400;
-font-size: 18px;
+font-size: 16px;
 // line-height: 25px;
 color: #ffffff;
 }

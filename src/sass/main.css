@@ -121,12 +121,24 @@ body {
 .hero__btn-icon {
   width: 18px;
   height: 18px;
-  margin-right: 16px;
+  margin-right: 14px;
+}
+
+.hero__btn-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .hero__btn-text {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
 
@@ -211,6 +223,7 @@ body {
 }
 
 .header {
+  display: none;
   background-color: rgba(50, 50, 50, 0.7);
   padding-top: 23px;
   padding-bottom: 23px;
@@ -229,15 +242,7 @@ body {
 }
 
 .header__nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  display: none;
 }
 
 .header__nav-icon {
@@ -248,6 +253,7 @@ body {
 }
 
 .header__burger-menu {
+  display: none;
   width: 34px;
   height: 34px;
   fill: #ffffff;
@@ -262,10 +268,33 @@ body {
 }
 
 .header__nav-list {
-  display: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.header__nav-item:not(:last-child) {
+  margin-right: 15px;
+}
+
+.header__nav-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 25px;
+  font-style: normal;
+  color: #DEDEDE;
 }
 
 @media screen and (min-width: 768px) {
+  .header {
+    display: block;
+  }
   .header__burger-menu {
     display: none;
   }
@@ -686,6 +715,18 @@ body {
   margin: 0 auto;
 }
 
+.contact__btn-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .contact__btn-icon {
   width: 18px;
   height: 18px;
@@ -694,7 +735,7 @@ body {
 
 .contact__btn-text {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 16px;
   color: #ffffff;
 }
 
