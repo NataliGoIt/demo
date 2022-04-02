@@ -58,6 +58,12 @@ color:  #DEDEDE;
     .header__burger-menu{
         display: none;
     }
+    .header__nav{
+        display: block;
+        display: flex;
+    align-items: center;
+    justify-content: center;
+    }
 .header__nav-list{
     display: flex;
     align-items: center;
