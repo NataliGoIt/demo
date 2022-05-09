@@ -38,6 +38,61 @@
     height: 17px;
     fill: #ffffff;
 }
+// ============================music-progress==============================
+.progress__container{
+    margin: 0 auto;
+    width: 250px;
+    height: 6px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+.progress{
+    height: 6px;
+    background-color: rgb(203, 207, 207);
+    border-radius: 10px;
+}
+.player{
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    border-top: 0.5px solid rgba(229, 229, 229, 0.33);
+}
+.music__btn{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 15px;
+}
+.play-img{
+    width: 28px;
+    height: 28px;
+    fill: #ffffffdc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.play-pause{
+    display: none;
+}
+.pause-img{
+    width: 28px;
+    height: 28px;
+    fill: #ffffffdc;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.btn__prev-svg{
+    width: 28px;
+    height: 28px;
+    fill: #ffffffdc;
+}
+.btn__next-svg{
+    width: 28px;
+    height: 28px;
+    fill: #ffffffdc;
+}
+
 
 @media screen and (min-width: 768px){
     .music__play-img{
@@ -55,6 +110,37 @@
         width: 17px;
         height: 17px;
     }
+    // =======player=========
+    .player{
+        margin-bottom: 28px;
+    }
+    .progress__container{
+        width: 500px;
+        height: 8px;
+    }
+    .music__btn{
+        margin-bottom: 20px;
+        }
+        .play-img{
+            width: 36px;
+            height: 36px;
+            margin-left: 20px;
+            margin-right: 20x;
+        }
+        .pause-img{
+            width: 36px;
+            height: 36px;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        .btn__prev-svg{
+            width: 36px;
+            height: 36px;
+        }
+        .btn__next-svg{
+            width: 36px;
+            height: 36px;
+        }
 }
 
 @media screen and (min-width: 1440px){
@@ -86,4 +172,37 @@
         width: 23px;
         height: 23px;
     }
+    // ======player========== 
+    .player{
+        margin-bottom: 35px;
+        padding-top: 35px;
+    }
+    .progress__container{
+        width: 700px;
+        height: 9px;
+    }
+    .music__btn{
+        margin-bottom: 25px;
+        }
+        .play-img{
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .pause-img{
+            width: 40px;
+            height: 40px;
+            margin-left: 25px;
+            margin-right: 25px;
+        }
+        .btn__prev-svg{
+            width: 40px;
+            height: 40px;
+        }
+        .btn__next-svg{
+            width: 40px;
+            height: 40px;
+        }
 }
+

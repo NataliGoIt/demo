@@ -1,8 +1,39 @@
 <section class="music" id="music">
     <div class="container">
+        <div class="wrapper">
+          <div class="player">
+          <div class="music__btn">
+            <div class="btn__prev">
+              <svg class="btn__prev-svg">
+                <use href="./images/sprite.svg#previous"></use>
+                </svg>
+            </div>
+            <div class="btn__play">
+               <svg class="play-img"> 
+                <use href="./images/sprite.svg#play"></use>
+                </svg> 
+                <svg class="pause-img play-pause"> 
+                  <use href="./images/sprite.svg#pause"></use>
+                  </svg> 
+                <audio class="audio" src="./audio/22-22.mp3"></audio>
+            </div>
+            <div class="btn__next">
+              <svg class="btn__next-svg">
+                <use href="./images/sprite.svg#next"></use>
+                </svg>
+            </div>
+            
+          </div>
+          
+          <div class="progress__container">
+        <div class="progress"></div>
+          </div>
+          </div>
+        </div>
+        
               <ul class="music__play-list">
-                <li class="music__play-item music-12">
-                  <audio id="audio12" class="music__play-audio" src="./audio/22-22.mp3">
+                <li class="music__play-item music-1">
+                  <audio id="audio1" class="music__play-audio" src="./audio/22-22.mp3">
                     Воспроизведение аудио-файла не поддерживается браузером
                   </audio>
                   <img src="./images/2222.jpg" alt="" class="music__play-img">
@@ -14,8 +45,8 @@
               <use href="./images/sprite.svg#play"></use>
               </svg>
                 </li>
-                   <li class="music__play-item music-13">
-                    <audio id="audio13" class="music__play-audio" src="./audio/feel  so good.wav">
+                   <li class="music__play-item music-2">
+                    <audio id="audio2" class="music__play-audio" src="./audio/feel  so good.wav">
                       Воспроизведение аудио-файла не поддерживается браузером
                     </audio>
                     <img src="./images/feelsogood.jpg" alt="" class="music__play-img">
@@ -142,5 +173,7 @@
                       </svg>
                     </li>
                     </ul>
+                   
     </div>
+  </div>
 </section>

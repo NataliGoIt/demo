@@ -47,8 +47,11 @@ text-align: center;
         padding-bottom: 80px;
     }
     .video__iframe{
-        width: 280px;
-        height: 220px;
+        // width: 280px;
+        // height: 220px;
+        width: 964px;
+
+        height: 100vh;
     }
     .video__list{
         margin-top: 100px;
@@ -68,8 +71,8 @@ text-align: center;
         padding-top: 90px;
         padding-bottom: 90px;
     }
-    .video__iframe{
-        width: 400px;
-        height: 320px;
-    }
+    // .video__iframe{
+    //     width: 400px;
+    //     height: 320px;
+    // }
 }
