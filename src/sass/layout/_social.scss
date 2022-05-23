@@ -21,7 +21,12 @@
 
 .social__social-link{
     font-style: normal;
-    color: #ffffff;
+    color: var( --color-social-link);
+
+    &:hover,
+    &:focus{
+        color: var(--hover-social-link);
+    }
 }
 
 

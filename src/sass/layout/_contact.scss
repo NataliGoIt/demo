@@ -20,25 +20,38 @@
   padding-left: 20px;
   padding-right: 20px;
   border: none;
-  background-color: #D9720D;  
+  background-color: var(--bgc-btn);  
   border-radius: 4px;
   cursor: pointer;
   margin: 0 auto;
+
+  stroke: var(--color-ikon-btn);
+  color: var(--color-btn-text);
+
+  &:hover,
+    &:focus{
+        background-color: var(--bgc-hover-btn); 
+        color: var(--hover-btn-text);
+        stroke: var( --hover-ikon-btn);
+}
 }
 .contact__btn-link{
     display: flex;
     align-items: center;
     justify-content: center;
+    stroke: inherit;
+  color: inherit;
 }
 .contact__btn-icon{
     width: 18px;
     height: 18px;
     margin-right: 16px;
+    stroke: inherit;
 }
 .contact__btn-text{
     font-weight: 400;
 font-size: 16px;
-color: #ffffff;
+color: inherit;
 }
 
 @media screen and (min-width: 1440px){

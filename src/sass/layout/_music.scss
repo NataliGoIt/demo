@@ -5,14 +5,14 @@
 .music__play-item{
     display: flex;
     align-items: center;
-    border-top: 0.5px solid rgba(229, 229, 229, 0.33);
+    border-top: 0.5px solid var(--border-color);
     padding-top: 25px;
     padding-bottom: 13px;
     padding-left: 10px;
     padding-right: 13px;
 }
 .music-11{
-    border-bottom: 0.5px solid rgba(229, 229, 229, 0.33);
+    border-bottom: 0.5px solid var(--border-color);
 }
 .music__play-img{
     width: 45px;
@@ -24,31 +24,32 @@
     font-weight: 500;
     font-size: 13px;
     line-height: 15px;
+    color: var(--color-title-h2);
 }
 .music__play-description{
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
-    color: rgba(229, 229, 229, 0.72);
+    color: var(--color-text);
     margin-top: 8px;
 }
 .music__play-play{
     margin-left: auto;
     width: 17px;
     height: 17px;
-    fill: #ffffff;
+    fill: var(--color-btn-player);
 }
 // ============================music-progress==============================
 .progress__container{
     margin: 0 auto;
     width: 250px;
     height: 6px;
-    background-color: aqua;
+    background-color: var(--bgc-progress-container);
     border-radius: 10px;
 }
 .progress{
     height: 6px;
-    background-color: rgb(203, 207, 207);
+    background-color: var(--bgc-progress);
     border-radius: 10px;
 }
 .player{
@@ -57,7 +58,7 @@
     // align-items: center;
     margin-bottom: 20px;
     padding-top: 28px;
-    border-top: 0.5px solid rgba(229, 229, 229, 0.33);
+    border-top: 0.5px solid var(--border-color);
 }
 .music__btn{
 display: flex;
@@ -68,7 +69,7 @@ margin-bottom: 15px;
 .play-img{
     width: 28px;
     height: 28px;
-    fill: #ffffffdc;
+    fill: var(--color-btn-player);
     margin-left: 10px;
     margin-right: 10px;
 }
@@ -78,19 +79,19 @@ margin-bottom: 15px;
 .pause-img{
     width: 28px;
     height: 28px;
-    fill: #ffffffdc;
+    fill: var(--color-btn-player);
     margin-left: 10px;
     margin-right: 10px;
 }
 .btn__prev-svg{
     width: 28px;
     height: 28px;
-    fill: #ffffffdc;
+    fill: var(--color-btn-player);
 }
 .btn__next-svg{
     width: 28px;
     height: 28px;
-    fill: #ffffffdc;
+    fill: var(--color-btn-player);
 }
 
 
@@ -116,6 +117,9 @@ margin-bottom: 15px;
     }
     .progress__container{
         width: 500px;
+        height: 8px;
+    }
+    .progress{
         height: 8px;
     }
     .music__btn{
@@ -179,6 +183,9 @@ margin-bottom: 15px;
     }
     .progress__container{
         width: 700px;
+        height: 9px;
+    }
+    .progress{
         height: 9px;
     }
     .music__btn{

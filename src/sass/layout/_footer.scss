@@ -1,7 +1,7 @@
 .footer{
     padding-top: 48px;
     padding-bottom: 64px;
-    border-top: solid 1px #696969;
+    border-top: 1.5px solid var(--border-color);
     text-align: center;
 }
 .footer__social-list{
@@ -18,10 +18,15 @@
 .footer__social-svg{
     width: 28px;
     height: 28px;
-    fill: #959595;
+    fill: var(--color-footer-ikon);
+
+    &:hover,
+    &:focus{
+        fill: var(--hover-footer-ikon);
+    }
 }
 .copy{
-    color: #959595;
+    color: var(--color-footer-ikon);
 }
 
 @media screen and (min-width: 768px){

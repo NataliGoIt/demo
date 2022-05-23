@@ -1,6 +1,5 @@
 .header{
     display: none;
-    background-color: rgba(50, 50, 50, 0.7);
     padding-top: 23px;
     padding-bottom: 23px;
 }
@@ -31,8 +30,13 @@
     font-weight: 500;
     font-size: 20px;
     line-height: 27px;
-    color: #DEDEDE;
+    color: var(--logo-color);
     font-style: normal;
+
+    &:hover,
+    &:focus{
+        color: var(--logo-hover-color);
+}
 }
 .header__nav-list{
     display: flex;
@@ -49,14 +53,19 @@
 font-size: 16px;
 line-height: 25px;
 font-style: normal;
-color:  #DEDEDE;
+color:  var(--color-link-nav);
+
+    &:hover,
+    &:focus{
+        color: var(--hover-link-nav);
+}
 }
 @media screen and (min-width: 768px){
     .header{
         display: block;
     }
     .header__burger-menu{
-        display: none;
+        display: block;
     }
     .header__nav{
         display: block;
